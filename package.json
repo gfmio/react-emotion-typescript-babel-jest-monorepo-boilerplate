@@ -13,6 +13,7 @@
     "test:ui": "yarn workspace ui test",
     "test:web": "yarn workspace web test",
     "test": "jest",
+    "test:ci": "jest --coverage",
     "lint": "tslint --project tsconfig.json"
   },
   "devDependencies": {
