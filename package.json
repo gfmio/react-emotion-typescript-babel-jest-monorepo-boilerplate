@@ -1,6 +1,11 @@
 {
   "name": "react-emotion-typescript-babel-jest-monorepo-boilerplate",
   "version": "1.0.0",
+  "author": {
+    "email": "npm@gfm.io",
+    "name": "Frédérique Mittelstaedt",
+    "url": "https://www.gfm.io"
+  },
   "license": "MIT",
   "private": true,
   "scripts": {
