@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "webpack-dev-server --config ./webpack.dev.ts --open --watch",
     "build": "webpack --config ./webpack.prod.ts",
-    "test": "jest"
+    "test": "jest",
+    "lint": "tslint --project tsconfig.json"
   },
   "dependencies": {
     "@emotion/core": "^10.0.10",

@@ -12,7 +12,8 @@
     "dev": "npm-run-all -p dev:ui dev:web",
     "test:ui": "yarn workspace ui test",
     "test:web": "yarn workspace web test",
-    "test": "jest"
+    "test": "jest",
+    "lint": "tslint --project tsconfig.json"
   },
   "devDependencies": {
     "@types/jest": "^24.0.11",

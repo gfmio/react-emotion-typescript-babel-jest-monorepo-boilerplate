@@ -7,18 +7,21 @@
   "scripts": {
     "build": "tsc",
     "dev": "tsc -w",
-    "test": "jest"
+    "test": "jest",
+    "lint": "tslint --project tsconfig.json"
   },
   "dependencies": {
     "@emotion/styled": "^10.0.10"
   },
   "devDependencies": {
+    "@emotion/core": "^10.0.10",
     "@types/enzyme": "^3.9.1",
     "@types/enzyme-adapter-react-16": "^1.0.5",
     "@types/jest": "^24.0.11",
     "enzyme": "^3.9.0",
     "enzyme-adapter-react-16": "^1.12.1",
     "jest": "^24.7.1",
+    "react": "^16.8.6",
     "tslint": "^5.15.0",
     "typescript": "^3.4.2"
   }
